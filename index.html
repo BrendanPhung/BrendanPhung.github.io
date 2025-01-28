@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brendan Phung Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="goHome()"> 
+    <div class="container">
+
+        <div class="top-right-buttons">
+            <button class="button" onclick="goHome()">HOME</button>
+            <button class="button" onclick="showAboutText()">RESUME</button>
+            <button class="button" onclick="showProjectsText()">PROJECTS</button>
+        </div>
+
+        <div class="output" id="output">
+
+        </div>
+
+        <div class="main-content">
+            <div id="home-text-box" class="text-box">
+                <p>
+                    <span class="large-text">Welcome to Brendan's Website!</span>
+                    <br>
+                    <span class="small-text">This is where you can learn all about me and my projects.</span>
+                    <br>
+                    <span class="large-text">Computer Science Student at UofT.</span>
+                    <br>
+                    <span class="small-text">Crafting logic, one line at a time.</span>
+                    <br>
+                    <span class="large-text">Tech Enthusiast and Creator.</span>
+                    <br>
+                    <span class="small-text">Transforming ideas into reality.</span>
+                </p>
+            </div>
+
+            <div id="home-image-container" class="image-container">
+                <img src="me.jpg" alt="Home Image" class="right-image">
+            </div>
+        
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
